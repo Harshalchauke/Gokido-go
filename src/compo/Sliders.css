@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+.margin_30_60 {
+     padding-top: 0px;
+     
+ }
+ .main_title.center {
+    text-align: center;
+    top: -60px;
+    z-index: 4;
+}
+.main_title {
+    position: relative;
+    justify-content: center;
+}
+.main_title span {
+    width: 120px;
+    height: 2px;
+    background-color: #e1e1e1;
+    position: relative;   
+    margin: 0 auto;
+}
+.main_title span em {
+    width: 60px;
+    height: 2px;
+    background-color: #367337;
+    display: block;
+  
+}
+.stitle h2{
+max-width: none !important;
+}
+
+
+
+
+.mycard{
+    min-width: 220px;
+    height: 270px;
+    background-color: black;
+    /* background-image: url('../../public/images/work-3.png');  */
+    margin: 10px;
+    color: white;
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+
+}
+.mycard span{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    display: inline-block;
+    line-height: 34px;
+    background-color: #fcfcfc;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #222;
+    font-size: 12px;
+    font-size: 0.75rem;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-weight: 500;
+    z-index: 9;
+}
+.imgs{
+width: 100%;
+object-fit: cover;
+border-radius: 13px;
+transition: 0.25s ease;
+}
+.mycard:hover img{
+    transform: scale(1.1);
+}
+.info {
+    position: absolute;
+    width: 100%;
+    z-index: 9;
+    padding: 5px 10px 0px 20px;
+    color: #fff;
+    left: 0;
+    border-radius: 6px;
+    bottom: -10px;
+    background: linear-gradient(to bottom, transparent, #000);
+}
+.title{
+    color: white;
+   
+
+}
+.title h4{
+    font-family: 'Poppins';
+    /* margin-top: 170px; */
+    margin-left: 0px;
+    font-size: 18px;
+}
+.title h6 {
+    margin-left: 0px;
+    font-size: 11px;
+    margin-top: -9px;
+}
+
+
+
+
+.product-slider {
+    z-index: 3;
+    position: relative;
+    top: -46px;
+    overflow: hidden;
+    padding: 0px;
+    padding-left: 100px;
+    padding-right: 96px;
+}
+.product-container{
+    
+    padding: 0 10px;
+    display: flex;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    overflow-y: hidden;
+}
+.pre-btn,
+.next-btn{
+    border: none;
+    width: 60px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+}
+.pre-btn i,
+.next-btn i{
+    font-size: 30px;
+}
+.next-btn{
+    right: 40px;
+    z-index: 1;
+}
+.pre-btn{
+    z-index: 1;
+    left: 40px;
+
+}
+
+.next-btn p,
+.pre-btn p{
+    font-size: 50px;
+    background-color: rgba(0, 0, 0, 0.479);
+    box-shadow: 0px 0px 10px 1px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
